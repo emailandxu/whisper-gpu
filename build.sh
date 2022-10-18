@@ -1,0 +1,1 @@
+docker build --build-arg http_proxy=http://172.17.200.65:7890 --build-arg https_proxy=http://172.17.200.65:7890 -t whisper_gpu .
